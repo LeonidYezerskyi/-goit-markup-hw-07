@@ -1,0 +1,41 @@
+.social-link-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.members-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    fill: #AFB1B8;
+    margin-top: 16px;
+    transition: background-color 250ms var(--cubic);
+}
+
+.members-link:hover,
+.members-link:focus {
+    background-color: var(--acent-color);
+    fill: var(--hero-text-color);
+}
+
+.network-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    fill: var(--hero-text-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms var(--cubic);
+}
+
+.network-link:hover,
+.network-link:focus {
+    background-color: var(--acent-color);
+}
