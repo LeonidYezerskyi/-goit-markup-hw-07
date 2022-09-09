@@ -6,21 +6,8 @@
     margin-right: auto;
 }
 
-.logo-start {
-    color: var(--acent-color);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
-}
-
-.logo-footer {
+.footer__logo {
     color: var(--hero-text-color);
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
 }
 
 /* address */
@@ -79,6 +66,16 @@
     margin-bottom: 20px;
 }
 
+.network-link {
+    fill: var(--hero-text-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms var(--cubic);
+    &:hover,
+    &:focus {
+        background-color: var(--acent-color)
+    }
+}
+
 .subscribe-form {
     margin-left: 93px;
 }
@@ -133,6 +130,19 @@
     vertical-align: middle;
 }
 
+.footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    padding: 10px 28px;
+}
+
 .subscribe-btn-icon {
     margin-left: 10px;
+}
+
+.contacts {
+    width: 231px;
 }
